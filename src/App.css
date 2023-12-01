@@ -1,0 +1,369 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.App {
+
+  font-size: 16px;
+  color: #005171;
+
+  font-family: 'Quicksand', sans-serif;
+  margin: 5% 20% ;
+}
+
+body{
+  background-color: white;
+}
+
+.header{
+  text-align: left;
+  margin-bottom: 30px;
+  color: #005171;
+}
+
+#header_update{
+  /* display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between; */
+
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+
+
+}
+
+.container{
+
+  display: grid;
+  grid-template-columns: 400px 200px;
+  align-items: end;
+  
+  padding: 32px;
+  
+  max-width: 760px ;
+}
+
+#moneyIllustration{
+
+  width: 300px;
+
+  grid-column-start: -2;
+  grid-column-end: -1;
+  grid-row-start: -2;
+  grid-row-end: -1;
+}
+
+.container-btn{
+
+  grid-column-start: -3;
+  grid-column-end: -2;
+  
+}
+
+.container2{
+/* margin: 0 3%; */
+margin: auto;
+}
+
+table{
+  max-width: 20%;
+  margin: auto;
+  margin-left: -1%;
+  color: #555555;
+  font-weight: 700;
+}
+
+
+
+th, td {
+  padding: 10px;
+}
+
+tr{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+tbody{
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #FFF7F4;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #F1DFDB;
+}
+
+
+.containUpdate{
+
+  margin-top: 15px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  width: fit-content;
+
+}
+
+
+.history{
+  max-width: 420px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 0;
+
+  border: solid 1.5px #007698;
+  border-radius: 8px;
+
+  padding: 5px 15px 5px 30px;
+
+  background-color: ffffff;
+  color: #007698
+
+  
+}
+
+.input{
+  width: 125px;
+  padding: 10px;
+  border: solid 1.5px #A2685D;
+  background-color: #FFF7F4;
+  border-radius: 4px;
+  margin: 3px;
+
+  outline-color: #A2685D;
+}
+
+.input-in{
+  padding: 10px;
+  border: solid 1.5px #F1DFDB;
+  width: 100%;
+  /* width: 455px; */
+  background-color: #FFF7F4;
+  margin: 0;
+  border-radius: 4px;
+  outline-color: #A2685D;
+
+}
+
+#delete-input{
+  width: 30%;
+  height: 50%;
+  border: solid 1.5px #007698;
+  background-color: #fff;
+  outline-color: #007698;
+}
+
+
+
+.select,
+.select-content {
+  width: 150px;
+  padding: 11px;
+  border: solid 1.5px #A2685D;
+  background-color: #FFF7F4;
+  border-radius: 4px;
+  margin: 3px;
+  margin-left: 2px; 
+}
+
+
+
+.button {
+  cursor: pointer;
+  font-family: 'Salsa' ,Arial, Helvetica, sans-serif;
+  font-size: 16px;
+
+  width: 150px;
+
+  margin: 5px;
+  margin-left: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 15px;
+
+  color: #fff;
+  background-color: #007698;
+}
+
+.back{
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 5px;
+  font-family: 'Salsa' ,Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border-radius: 9000px;
+  border: 0;
+
+  text-align: center;
+  color: #fff;
+  background-color: #007698;
+}
+
+#delete-btn{
+  text-align: center;
+}
+
+#update_btn{
+  width: 100%;
+}
+
+button:hover {
+    background: #00ACCE;
+}
+
+
+button:disabled{
+    background: rgba(128, 128, 128, 0.637);
+}
+
+.smm-icon{
+  width: 24px;
+  text-align: none;
+}
+
+.link{
+  text-decoration: none;
+}
+
+
+@media screen and (max-width:768px){
+
+  .App{
+    margin: 30px;
+  }
+
+  tbody{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+  }
+
+  #header_update{
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #delete-input{
+    width: 75%;
+    height: 50%;
+  }
+
+  .delDiv{
+    display: flex;
+    align-items: flex-start;
+    align-items: baseline;
+
+  }
+
+  #delete-btn{
+    margin-right: 65px;
+  }
+
+
+  #moneyIllustration{
+    width: 200px;
+  }
+  
+  
+}
+
+@media screen and (max-width:500px){
+
+  .App{
+    margin: 0;
+    margin-left: 0;
+    padding: 5px;
+  }
+
+  tbody{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #header_update{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    
+  
+  }
+
+  .containUpdate{
+    margin: 10px 0 0 40px;
+  }
+
+  .header{
+  margin-bottom: 5px;
+  }
+
+  .history{
+    padding-left: 10px;
+
+  }
+
+  .converter{
+    margin-top: 20px;
+  }
+
+  #delete-btn{
+    margin-right: 0;
+  }
+
+  .container{
+  margin-right: 5px;
+  padding: 5px 0;
+
+  grid-template-columns: 1fr;
+
+  }
+
+  #moneyIllustration{
+    display: none;
+  }
+
+  .container-btn{
+  display: flex;
+
+  }
+
+  .footer{
+    display: none;
+  }
+
+  
+}
+
+@media screen and (max-width:350px){
+
+  .container-btn{
+    flex-wrap: wrap;
+  
+    }
+
+    .containUpdate{
+      margin: 10px 0 0 20px;
+    }
+}
+
+
+
+
+
