@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/currencyConverter-/static/css/main.a8a8540f.css",
+    "main.js": "/currencyConverter-/static/js/main.fd156ffd.js",
+    "static/js/787.8d68a705.chunk.js": "/currencyConverter-/static/js/787.8d68a705.chunk.js",
+    "static/media/Coins-pana.svg": "/currencyConverter-/static/media/Coins-pana.d23c13214b0e28a0e00780b3cd3240c2.svg",
+    "static/media/gitHub.svg": "/currencyConverter-/static/media/gitHub.fa1b53cfb87662b4010a7b2165adcbe3.svg",
+    "static/media/linkdin.svg": "/currencyConverter-/static/media/linkdin.4f61a8bf53461617638874c4cbf4039a.svg",
+    "static/media/instagran.svg": "/currencyConverter-/static/media/instagran.a10165aecb54ba31239bc18101066475.svg",
+    "index.html": "/currencyConverter-/index.html",
+    "main.a8a8540f.css.map": "/currencyConverter-/static/css/main.a8a8540f.css.map",
+    "main.fd156ffd.js.map": "/currencyConverter-/static/js/main.fd156ffd.js.map",
+    "787.8d68a705.chunk.js.map": "/currencyConverter-/static/js/787.8d68a705.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8a8540f.css",
+    "static/js/main.fd156ffd.js"
+  ]
+}
